@@ -105,70 +105,72 @@ public class Main {
 
             switch (aux) {
                 case 1 -> {
-                    
-                    try{
-                    FileReader fr1c = new FileReader(fcent1);
-                    FileReader fr2c = new FileReader(fcent2);
-                    FileReader fr5c = new FileReader(fcent5);
-                    FileReader fr10c = new FileReader(fcent10);
-                    FileReader fr20c = new FileReader(fcent20);
-                    FileReader fr50c = new FileReader(fcent50);
-                    FileReader fr1e = new FileReader(feuro1);
-                    FileReader fr2e = new FileReader(feuro2);
-                    FileReader fr5e = new FileReader(feuro5);
-                    FileReader fr10e = new FileReader(feuro10);
-                    FileReader fr20e = new FileReader(fcent20);
-                    FileReader fr50e = new FileReader(fcent50);
-                    
-                    BufferedReader br1c = new BufferedReader(fr1c);
-                    BufferedReader br2c = new BufferedReader(fr2c);
-                    BufferedReader br5c = new BufferedReader(fr5c);
-                    BufferedReader br10c = new BufferedReader(fr10c);
-                    BufferedReader br20c = new BufferedReader(fr20c);
-                    BufferedReader br50c = new BufferedReader(fr50c);
-                    BufferedReader br1e = new BufferedReader(fr1e);
-                    BufferedReader br2e = new BufferedReader(fr2e);
-                    BufferedReader br5e = new BufferedReader(fr5e);
-                    BufferedReader br10e = new BufferedReader(fr10e);
-                    BufferedReader br20e = new BufferedReader(fr20e);
-                    BufferedReader br50e = new BufferedReader(fr50e);
-                    
-                    System.out.print(""
-                                    
-                                       
-                                       
-                 +"  - - - - S A L D O  D I S P O N I B L E - - - - - \n"
-                  +"|                                                |\n"
-                  +"|          C E N T I M O S                       |\n"
-                  +"|                                                |\n"
-                  +"|      1 centimo : "+br1c.readLine()+"                             |\n"
-                  +"|      2 centimo : "+br2c.readLine()+"                             |\n"
-                  +"|      5 centimo : "+br5c.readLine()+"                             |\n"
-                  +"|     10 centimo : "+br10c.readLine()+"                             |\n"
-                  +"|     20 centimo : "+br20c.readLine()+"                             |\n"
-                  +"|     50 centimo : "+br50c.readLine()+"                             |\n"
-                  +"|                                                |\n"
-                  +"|                                                |\n"
-                  +"|          E U R O S                             |\n"
-                  +"|                                                |\n"
-                  +"|       1 euro   : "+br1e.readLine()+"                             |\n"
-                  +"|       2 euro   : "+br2e.readLine()+"                             |\n"
-                  +"|       5 euro   : "+br5e.readLine()+"                             |\n"
-                  +"|      10 euro   : "+br10e.readLine()+"                             |\n"
-                  +"|      20 euro   : "+br20e.readLine()+"                             |\n"
-                  +"|      50 euro   : "+br50e.readLine()+"                             |\n"
-                  +"|                                                |\n"
-                  +"|________________________________________________|\n\n"
-                      
-                     
-                   
-                            
-                            
-                        
-                            
-                            );
-                    }
-                    catch(IOException er){
+
+                    try {
+                        FileReader fr1c = new FileReader(fcent1);
+                        FileReader fr2c = new FileReader(fcent2);
+                        FileReader fr5c = new FileReader(fcent5);
+                        FileReader fr10c = new FileReader(fcent10);
+                        FileReader fr20c = new FileReader(fcent20);
+                        FileReader fr50c = new FileReader(fcent50);
+                        FileReader fr1e = new FileReader(feuro1);
+                        FileReader fr2e = new FileReader(feuro2);
+                        FileReader fr5e = new FileReader(feuro5);
+                        FileReader fr10e = new FileReader(feuro10);
+                        FileReader fr20e = new FileReader(fcent20);
+                        FileReader fr50e = new FileReader(fcent50);
+
+                        BufferedReader br1c = new BufferedReader(fr1c);
+                        BufferedReader br2c = new BufferedReader(fr2c);
+                        BufferedReader br5c = new BufferedReader(fr5c);
+                        BufferedReader br10c = new BufferedReader(fr10c);
+                        BufferedReader br20c = new BufferedReader(fr20c);
+                        BufferedReader br50c = new BufferedReader(fr50c);
+                        BufferedReader br1e = new BufferedReader(fr1e);
+                        BufferedReader br2e = new BufferedReader(fr2e);
+                        BufferedReader br5e = new BufferedReader(fr5e);
+                        BufferedReader br10e = new BufferedReader(fr10e);
+                        BufferedReader br20e = new BufferedReader(fr20e);
+                        BufferedReader br50e = new BufferedReader(fr50e);
+
+                        System.out.print(""
+                                + "  - - - - S A L D O  D I S P O N I B L E - - - - - \n"
+                                + "|                                                |\n"
+                                + "|          C E N T I M O S                       |\n"
+                                + "|                                                |\n"
+                                + "|      1 centimo : " + br1c.readLine() + "                             |\n"
+                                + "|      2 centimo : " + br2c.readLine() + "                             |\n"
+                                + "|      5 centimo : " + br5c.readLine() + "                             |\n"
+                                + "|     10 centimo : " + br10c.readLine() + "                             |\n"
+                                + "|     20 centimo : " + br20c.readLine() + "                             |\n"
+                                + "|     50 centimo : " + br50c.readLine() + "                             |\n"
+                                + "|                                                |\n"
+                                + "|                                                |\n"
+                                + "|          E U R O S                             |\n"
+                                + "|                                                |\n"
+                                + "|       1 euro   : " + br1e.readLine() + "                             |\n"
+                                + "|       2 euro   : " + br2e.readLine() + "                             |\n"
+                                + "|       5 euro   : " + br5e.readLine() + "                             |\n"
+                                + "|      10 euro   : " + br10e.readLine() + "                             |\n"
+                                + "|      20 euro   : " + br20e.readLine() + "                             |\n"
+                                + "|      50 euro   : " + br50e.readLine() + "                             |\n"
+                                + "|                                                |\n"
+                                + "|________________________________________________|\n\n"
+                        );
+
+                        br1c.close();
+                        br2c.close();
+                        br5c.close();
+                        br10c.close();
+                        br20c.close();
+                        br50c.close();
+                        br1e.close();
+                        br2e.close();
+                        br5e.close();
+                        br10e.close();
+                        br20e.close();
+                        br50e.close();
+                    } catch (IOException er) {
                         System.out.println("Error en el saldo disponible");
                     }
                     break;
@@ -230,8 +232,8 @@ public class Main {
                                                 int banco1cent = Integer.parseInt(banco1centStr);
 
                                                 int add1c = banco1cent + (cant * 1);
-                                                
-                                                insertar(cent1,add1c);
+
+                                                insertar(cent1, add1c);
 
                                                 cr1b.close();
 
@@ -240,10 +242,6 @@ public class Main {
 
                                                 c1bw.write(String.valueOf(add1c));
                                                 c1bw.close();
-                                                
-                                                
-                                                
-                                                
 
                                             } catch (IOException c1) {
                                                 System.out.println("Error en Case 1, 1 cent");
@@ -274,8 +272,6 @@ public class Main {
 
                                                 c2bw.write(String.valueOf(add2c));
                                                 c2bw.close();
-                                                
-                                                
 
                                             } catch (IOException c1) {
                                                 System.out.println("Error en Case 2, 2 cent");
@@ -417,7 +413,7 @@ public class Main {
                                     ________________________________________
                                    |¿ Que tipo de euros quieres ingresar ?  |
                                    |                                        |
-                                   |    1. 1euro        4. 10euro           |               
+                                   |    1. 1euro        4. 10euro   7.Salir |               
                                    |    2. 2euro        5. 20euro           |
                                    |    3. 5euro        6. 50euro           |
                                    | _______________________________________|
@@ -619,6 +615,97 @@ public class Main {
 
                 case 3 -> {
 
+                    System.out.println("""
+                            
+                            Pulsa el num correspondiente 
+                            de la moneda que quieras sacar
+                                       
+                    1. 1cent    4. 10cent   7. 1euro    10. 10euro
+                    2. 2cent    5. 20cent   8. 2euro    11. 20euro
+                    3. 5cent    6. 50cent   9. 5euro    12. 50euro
+                                       
+                                      
+                                       
+                                       """);
+
+                    int monSacar = sc.nextInt();
+
+                    switch (monSacar) {
+                        case 1 -> {
+
+                            sacarDinero(fcent1, cent1);
+                            break;
+                        }
+                        case 2 -> {
+
+                            sacarDinero(fcent2, cent2);
+
+                            break;
+                        }
+                        case 3 -> {
+
+                            sacarDinero(fcent5, cent5);
+
+                            break;
+                        }
+                        case 4 -> {
+
+                            sacarDinero(fcent10, cent10);
+
+                            break;
+                        }
+                        case 5 -> {
+
+                            sacarDinero(fcent20, cent20);
+
+                            break;
+                        }
+                        case 6 -> {
+
+                            sacarDinero(fcent50, cent50);
+
+                            break;
+                        }
+                        case 7 -> {
+
+                            sacarDinero(feuro1, euro1);
+
+                            break;
+                        }
+                        case 8 -> {
+
+                            sacarDinero(feuro2, euro2);
+
+                            break;
+
+                        }
+                        case 9 -> {
+
+                            sacarDinero(feuro5, euro5);
+
+                            break;
+                        }
+                        case 10 -> {
+
+                            sacarDinero(feuro10, euro10);
+
+                            break;
+                        }
+                        case 11 -> {
+
+                            sacarDinero(feuro20, euro20);
+
+                            break;
+                        }
+                        case 12 -> {
+
+                            sacarDinero(feuro50, euro50);
+
+                            break;
+                        }
+
+                    }
+
                 }
                 case 4 -> {
 
@@ -693,7 +780,6 @@ public class Main {
         try {
             String numString = br.readLine();
             int numInt = Integer.parseInt(numString);
-            
 
             do {
                 if (numInt >= 100) {
@@ -704,18 +790,54 @@ public class Main {
                 }
             } while (numInt >= 100);
 
-            
-
         } catch (IOException ce) {
             System.out.println("Error en la funcion conversion");
         }
 
-        return " Total de euros " +euros;
+        return " Total de euros " + euros;
     }
-    
-    public static void insertar(Monedas m,int i){
-       
+
+    public static void insertar(Monedas m, int i) {
+
         m.setCantidad(i);
+    }
+
+    public static void sacarDinero(File file, Monedas mon) {
+
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+
+            String cantidadMonedasStr = br.readLine(); 
+            int cantidadMonedas = Integer.parseInt(cantidadMonedasStr); 
+
+            System.out.println("Tienes un total de " + cantidadMonedas + " monedas");
+            System.out.println("");
+            System.out.println("¿Cuánto dinero quieres extraer?");
+            int cantidadExtraer = sc.nextInt();
+
+            cantidadMonedas -= cantidadExtraer; // Resta la cantidad a extraer
+
+            br.close();
+
+            mon.setCantidad(cantidadMonedas);
+
+            System.out.println("Monedas extraídas con éxito");
+
+            FileWriter fw = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            bw.write(String.valueOf(mon.getCantidad()));
+            bw.close();
+
+        } catch (IOException e) {
+            System.out.println("No se puede acceder a la cantidad de monedas");
+        } catch (NumberFormatException e) {
+            System.out.println("La cantidad de monedas no es un número válido");
+        }
+
     }
 
 }

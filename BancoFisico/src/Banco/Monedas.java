@@ -73,6 +73,8 @@ public class Monedas {
 
     public int getCantidad() {
         
+        
+        
         return cantidad;
     }
 
@@ -112,13 +114,5 @@ public class Monedas {
                }
        return "Tienes una cantidad de "+ cantidad +" monedas de "+this.nombre ;
    }
-    
-    
-    
-
-    
-    
-    
-    
     
 }

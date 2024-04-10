@@ -1,1 +1,5 @@
-// 10/04/2024 ultima act 
+-- Errores Corregir -- 
+
+A la hora de insertar centimos no los mete en el txt 
+
+No hace bucle en centimos hasta que se pida que salga
